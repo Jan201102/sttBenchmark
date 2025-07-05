@@ -1,0 +1,3 @@
+[submodule "wavStore"]
+	path = wavStore
+	url = https://github.com/Jan201102/wavStore.git
