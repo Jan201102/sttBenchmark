@@ -8,4 +8,7 @@ model|average WER (%)
 whisper tiny|87.4
 whisper medium|18.5
 vosk-de|10.6
-vosk-de-small|25.6
+vosk-de-small|25.3
+
+# TODO
+- look at audio preprocessing in hailo whisper example

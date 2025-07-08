@@ -67,7 +67,7 @@ def calculate_wer(reference: List[str], hypothesis: List[str]) -> Tuple[float, i
 def main():
     # Load CSV files
     try:
-        transcripts_df = pd.read_csv('transcripts_vosk-model-small-de-0.15_noise_reduce.csv')
+        transcripts_df = pd.read_csv('transcripts_vosk-model-small-de-0.15.csv')
         annotations_df = pd.read_csv('annotation.csv')
     except FileNotFoundError as e:
         print(f"Error loading CSV files: {e}")
